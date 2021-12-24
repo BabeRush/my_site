@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Rushkin's website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#" id="navbar_logo">BAR RUSHKIN</a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about_me">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#education" class="navbar_links" id="my_education">Education</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#employment" class="navbar_links" id="my_employment">Employment</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#hobbies" class="navbar_links" id="my_hobbies">Hobbies</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#images" class="navbar_links" id="my_photos">Images</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact" class="navbar_links" id="contact_me">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main_container">
+          <div class="about_content" id="about">
+            <h1>About</h1>
+            <p>29 years old. Lives in Tel-Aviv. Born and raised in kibbutz Sarid,
+                 in the northern region of Israel.
+            </p>
+          </div>
+          <div class="edu_content" id="education">
+            <h1>Education</h1>
+            <p>Student for a bachelor's degree in computer science at IDC Herzliya
+            </p>
+          </div>
+          <div class="emp_content" id="employment">
+            <h1>Employment</h1>
+            <p>For the last 10 years I served as an officer in the special forces of the Israeli army(combat soldier, no background of programming).
+            </p>
+          </div>
+          <div class="hob_content" id="hobbies">
+            <h1>Hobbies</h1>
+            <p>All kinds of sports, playing my guitar and listen to old rock music, read and travel.
+            </p>
+          </div>
+          <div class="images_header" id="images">
+            <h1>Images</h1>
+            </div>
+          <div class="slide_show_container">
+                <div class="slide_show_content">
+                    <img id="image">
+                </div>
+          </div>
+          <section class="contact" id='contact'>
+            <form action="https://formsubmit.co/babblewad@gmail.com" method="POST">
+                <h1>Contact</h1>
+                <input type="text" id = "your_name" placeholder="Name..." >
+                <input type="text" id = "your_mail" placeholder="Email..." required>
+                <textarea id="mail_me" cols="5" rows="8" placeholder="Your message..."></textarea>
+                <button type="submit" id="send">Send</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
