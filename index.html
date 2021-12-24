@@ -72,12 +72,12 @@
                 </div>
           </div>
           <section class="contact" id='contact'>
-            <form action="https://formsubmit.co/babblewad@gmail.com" method="POST">
+            <form action="https://formsubmit.co/babblewad@gmail.com" method="POST" onsubmit="">
                 <h1>Contact</h1>
                 <input type="text" id = "your_name" placeholder="Name..." >
-                <input type="text" id = "your_mail" placeholder="Email..." required>
+                <input type="text" id = "your_mail" placeholder="Email..." >
                 <textarea id="mail_me" cols="5" rows="8" placeholder="Your message..."></textarea>
-                <button type="submit" id="send">Send</button>
+                <button type="submit" id="send" onclick="return ValidateEmail()">Send</button>
             </form>
           </section>
         </div>
